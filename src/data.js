@@ -41,41 +41,56 @@ export const skills = [
   },
   {
     id: 9,
+    img: "/img/zustand.png",
+    title: "Zustand",
+  },
+  {
+    id: 10,
     img: "/img/firebase.png",
     title: "Firebase",
   },
   {
-    id: 10,
+    id: 11,
     img: "/img/react-query.png",
     title: "React Query",
   },
   {
-    id: 11,
+    id: 12,
     img: "/img/stripe.png",
     title: "Stripe",
   },
   {
-    id: 12,
+    id: 13,
+    img: "/img/framer-motion.png",
+    title: "Framer Motion",
+  },
+  {
+    id: 14,
+    img: "/img/typescript.png",
+    title: "TypeScript",
+  },
+  {
+    id: 15,
     img: "/img/nodejs.png",
     title: "Node JS",
   },
   {
-    id: 13,
+    id: 16,
     img: "/img/mongodb.png",
     title: "Mongo DB",
   },
   {
-    id: 14,
+    id: 17,
     img: "/img/postman.png",
     title: "Postman",
   },
   {
-    id: 15,
+    id: 18,
     img: "/img/github.png",
     title: "Github",
   },
   {
-    id: 16,
+    id: 19,
     img: "/img/gitbash.png",
     title: "Gitbash",
   },

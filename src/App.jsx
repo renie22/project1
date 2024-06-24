@@ -1,13 +1,14 @@
-import { useSelector } from "react-redux";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+import { useThemeStore } from "./zustand/themeStore";
 
 function App() {
-  const { darkMode } = useSelector((state) => state.theme);
+  const { darkMode } = useThemeStore();
 
   return (
     <div className={`${darkMode && "dark"}`}>
@@ -15,7 +16,8 @@ function App() {
         <Navbar />
         <Header />
         <About />
-        <Projects />
+        <Skills />
+        <Project />
         <Contact />
         <Footer />
       </div>
