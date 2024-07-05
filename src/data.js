@@ -21,58 +21,61 @@ export const skills = [
   },
   {
     id: 5,
-    img: "/img/sass.png",
-    title: "Sass",
+    img: "/img/scss.png",
+    title: "SCSS",
   },
   {
     id: 6,
-    img: "/img/mui.png",
-    title: "Materail UI",
-  },
-  {
-    id: 7,
     img: "/img/react.png",
     title: "React",
   },
   {
+    id: 7,
+    img: "/img/react-query.png",
+    title: "React Query",
+  },
+
+  {
     id: 8,
+    img: "/img/mui.png",
+    title: "Materail UI",
+  },
+
+  {
+    id: 9,
     img: "/img/redux-toolkit.png",
     title: "Redux Toolkit",
   },
   {
-    id: 9,
+    id: 10,
     img: "/img/zustand.png",
     title: "Zustand",
   },
   {
-    id: 10,
-    img: "/img/firebase.png",
-    title: "Firebase",
-  },
-  {
     id: 11,
-    img: "/img/react-query.png",
-    title: "React Query",
-  },
-  {
-    id: 12,
     img: "/img/stripe.png",
     title: "Stripe",
   },
   {
-    id: 13,
-    img: "/img/framer-motion.png",
-    title: "Framer Motion",
+    id: 12,
+    img: "/img/firebase.png",
+    title: "Firebase",
   },
+
   {
-    id: 14,
+    id: 13,
     img: "/img/typescript.png",
     title: "TypeScript",
   },
   {
-    id: 15,
+    id: 14,
     img: "/img/nodejs.png",
     title: "Node JS",
+  },
+  {
+    id: 15,
+    img: "/img/express-js.png",
+    title: "Express JS",
   },
   {
     id: 16,
@@ -81,17 +84,17 @@ export const skills = [
   },
   {
     id: 17,
+    img: "/img/mysql.png",
+    title: "MySQL",
+  },
+  {
+    id: 18,
     img: "/img/postman.png",
     title: "Postman",
   },
   {
-    id: 18,
+    id: 19,
     img: "/img/github.png",
     title: "Github",
-  },
-  {
-    id: 19,
-    img: "/img/gitbash.png",
-    title: "Gitbash",
   },
 ];
