@@ -72,14 +72,14 @@ const Project = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="githubButton w-[125px]">Github</button>
+              <button className="githubButton w-[140px]">Github</button>
             </a>
             <a
               href="https://bubbble-tea.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="projectButton w-[125px]">Learn More</button>
+              <button className="projectButton w-[140px]">Learn More</button>
             </a>
           </div>
         </div>
